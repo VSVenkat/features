@@ -1,0 +1,7 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+ios: PLATFORM=ios -r features/support -r features/ios/support -r features/ios/helpers -r features/steps -r features/pages
+
+android: PLATFORM=android -r features/support -r features/helpers -r features/steps -r features/pages1
